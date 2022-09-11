@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-title, #page-description {
+    margin-top: 5px;   
+}
+
+#page-description {
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    color: white;
+}
+
+#cloth-picker-title-container, #cloth-picker-button-container {
+    margin: 20px;
+}
+
+#cloth-picker-title {
+    color: pink;
+}
+
+#cloth-picker-button {
+    background-color: pink;
+    color: white;
+    padding: 15px;
+    border-radius: 12.5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cloth-picker-button:hover {
+    background-color: indianred;
+    color: white;
+    padding: 15px;
+    border-radius: 12.5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cloth-picker-chose {
+    display: flex;
+    justify-content: center;
+}
+
+#style-chosen {
+    font-size: 30px;
+    color: pink;
+    font-style: italic;
+}
