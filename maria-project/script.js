@@ -12,5 +12,5 @@ const estilos = [
 
     button.addEventListener('click', () => {
         const estiloEscolhido = estilos[Math.floor(Math.random() * estilos.length)]
-        p.innerHTML = estiloEscolhido;
+        p.innerHTML = 'Your clothes style chosen for today is ' + estiloEscolhido;
         })
