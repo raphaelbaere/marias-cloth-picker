@@ -12,35 +12,45 @@ const estilos = [{
     tShirt: 'white shirt',
     pants: 'common jeans',
     shoes: 'red all-star',
-    acessory: 'duck earrings' 
+    acessory: 'duck earrings',
+    mood: ['Mood:', 'Happy', "images/smile.png"],
+    ring: ['Obrigatory:', 'Commitment Ring', "images/rings.png"] 
 },
 {
     style: 'Confortable',
     tShirt: 'white shirt',
     pants: 'common jeans',
     shoes: 'red all-star',
-    acessory: 'duck earrings'
+    acessory: 'duck earrings',
+    mood: ['Mood:', 'Happy', "images/smile.png"],
+    ring: ['Obrigatory:', 'Commitment Ring', "images/rings.png"]
 },
 {
     style: 'Cute',
     tShirt: 'white shirt',
     pants: 'common jeans',
     shoes: 'red all-star',
-    acessory: 'duck earrings'
+    acessory: 'duck earrings',
+    mood: ['Mood:', 'Happy', "images/smile.png"],
+    ring: ['Obrigatory:', 'Commitment Ring', "images/rings.png"]
 },
 {
     style: 'Baggy',
     tShirt: 'white shirt',
     pants: 'common jeans',
     shoes: 'red all-star',
-    acessory: 'duck earrings'
+    acessory: 'duck earrings',
+    mood: ['Mood:', 'Happy', "images/smile.png"],
+    ring: ['Obrigatory:', 'Commitment Ring', "images/rings.png"]
 },
 {
     style: 'Formal',
     tShirt: 'white shirt',
     pants: 'common jeans',
     shoes: 'red all-star',
-    acessory: 'duck earrings'
+    acessory: 'duck earrings',
+    mood: ['Mood:', 'Happy', "images/smile.png"],
+    ring: ['Obrigatory:', 'Commitment Ring', "images/rings.png"]
 }]
 
     const button = document.getElementById('cloth-picker-button');
