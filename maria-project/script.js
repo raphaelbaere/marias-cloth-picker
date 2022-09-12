@@ -1,11 +1,11 @@
 const estilos = [{
     style: 'Casual',
-    tShirt: ['White shirt', '"images/whitetshirt.png"'],
-    pants: ['Common jeans', '"images/jeanscommum.png"'],
-    shoes: ['Red All-Star', '"images/redallstar.png"'],
-    acessory: ['Saphire Earrings', '"images/saphireearrings.png"'],
-    mood: ['Happy', "images/smile.png"],
-    ring: ['Commitment Ring', "images/rings.png"]
+    tShirt: ['T-Shirt:', 'White shirt', '"images/whitetshirt.png"'],
+    pants: ['Shirt:', 'Common jeans', '"images/jeanscommum.png"'],
+    shoes: ['Shoes:', 'Red All-Star', '"images/redallstar.png"'],
+    acessory: ['Acessory:', 'Saphire Earrings', '"images/saphireearrings.png"'],
+    mood: ['Mood:', 'Happy', "images/smile.png"],
+    ring: ['Obrigatory:', 'Commitment Ring', "images/rings.png"]
 },
 {
     style: 'Fancy',
@@ -57,20 +57,26 @@ const estilos = [{
         }
         divs[0].innerHTML =
         '<p>' + estiloEscolhido.tShirt[0] + '</p>' +
-        '<img src=' + estiloEscolhido.tShirt[1] + '>'
+        '<p>' + estiloEscolhido.tShirt[1] + '</p>' +
+        '<img src=' + estiloEscolhido.tShirt[2] + '>'
         divs[1].innerHTML =
         '<p>' + estiloEscolhido.pants[0] + '</p>' +
-        '<img src=' + estiloEscolhido.pants[1] + '>'
+        '<p>' + estiloEscolhido.pants[1] + '</p>' +
+        '<img src=' + estiloEscolhido.pants[2] + '>'
         divs[2].innerHTML =
         '<p>' + estiloEscolhido.shoes[0] + '</p>' +
-        '<img src=' + estiloEscolhido.shoes[1] + '>'
+        '<p>' + estiloEscolhido.shoes[1] + '</p>' +
+        '<img src=' + estiloEscolhido.shoes[2] + '>'
         divs[3].innerHTML =
         '<p>' + estiloEscolhido.acessory[0] + '</p>' +
-        '<img src=' + estiloEscolhido.acessory[1] + '>'
+        '<p>' + estiloEscolhido.acessory[1] + '</p>' +
+        '<img src=' + estiloEscolhido.acessory[2] + '>'
         divs[4].innerHTML =
         '<p>' + estiloEscolhido.mood[0] + '</p>' +
-        '<img src=' + estiloEscolhido.mood[1] + '>'
+        '<p>' + estiloEscolhido.mood[1] + '</p>' +
+        '<img src=' + estiloEscolhido.mood[2] + '>'
         divs[5].innerHTML =
         '<p>' + estiloEscolhido.ring[0] + '</p>' +
-        '<img src=' + estiloEscolhido.ring[1] + '>'
+        '<p>' + estiloEscolhido.ring[1] + '</p>' +
+        '<img src=' + estiloEscolhido.ring[2] + '>'
         })
