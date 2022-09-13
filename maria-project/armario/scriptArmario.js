@@ -42,7 +42,7 @@ function loadStyle(styleName) {
         clotheItemContainer.appendChild(p);
         const button = document.createElement('a');
         button.id = 'closet-button2';
-        button.href = "/maria-project/salvarRoupa.html";
+        button.href = "../salvarRoupa/salvarRoupa.html";
         button.innerHTML = "Let's add some";
         clotheItemContainer.appendChild(button);
     }
@@ -103,7 +103,7 @@ function onload() {
         closetTitleContainer.appendChild(p);
         const button = document.createElement('a');
         button.id = 'closet-button';
-        button.href = "/maria-project/salvarRoupa.html";
+        button.href = "../salvarRoupa/salvarRoupa.html";
         button.innerHTML = "Let's add some";
         closetTitleContainer.appendChild(button);
     } else {
