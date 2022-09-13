@@ -21,11 +21,36 @@
 
 header {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
     align-items: center;
     background-color: pink;
     color: white;
+}
+
+#organizador {
+    order: 1;
+}
+
+#nav1 {
+    display: flex;
+    order: 2;
+}
+
+#nav1 a, #nav2 a {
+    text-decoration: none;
+    padding: 15px;
+    color: pink;
+    background-color: white;
+    border-radius: 15%;
+    box-shadow: 0px 0px 16px white;
+    font-size: 20px;
+    text-shadow: 0px 0px 16px pink;
+}
+
+#nav2 {
+    display: flex;
+    order: 0;
 }
 
 #cloth-picker-title-container, #cloth-picker-button-container {
@@ -119,3 +144,4 @@ strong {
     text-align: center;
     margin: 4px auto;
 }
+
