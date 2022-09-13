@@ -1,6 +1,6 @@
 const closetTitleContainer = document.querySelector('#closet-title-container');
 const clotheItemContainer = document.querySelector('#clothe-items-container')
-const buttonNames = ['Casual', 'Formal', 'Confortable', 'Baggy', 'Cute', 'Fancy', 'All'];
+const buttonNames = ['Casual', 'Formal', 'Confortable', 'Baggy', 'Cute', 'Fancy', 'All', 'Remove All'];
 const aside = document.querySelector('#button-aside');
 const closetItems = document.querySelectorAll('.style-items')
 
@@ -86,7 +86,10 @@ function loadButtons() {
                 case 'All':
                     removeClothes();
                     loadStyle('Closet');
-                break;            
+                break;
+                case 'Remove All':
+                    removeClothes();
+                    localStorage.clear();       
             }
 
         })
