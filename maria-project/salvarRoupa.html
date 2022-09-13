@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Clothe: Maria's Closet</title>
+    <link rel="stylesheet" href="styleSalva.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="organizador">
+        <h1 id="page-title">Maria's Clothes Picker</h1>
+        <p id="page-description"><em>Morning, love. I hope u have a great day. Love ya!</em></p>
+        </div>
+        <nav id="nav1">
+            <a href="/maria-project/index.html">Clothes Picker</a>
+        </nav>
+        <nav id="nav2">
+            <a href="/maria-project/armario.html">Armário</a>
+        </nav>
+        </header>
+<main>
+    <form>
+        <div id="form-title">
+        <h1>Here, you can save your clothes by submiting their info in this form!</h1>
+        </div>
+        <div class="divisor"></div>
+        <div>
+            <label for="">
+            Clothes style:
+            <select name="select-clothes-style" id="clothes-style">
+                <option value="casual">Casual</option>
+                <option value="fancy">Fancy</option>
+                <option value="confortable">Confortable</option>
+                <option value="cute">Cute</option>
+                <option value="baggy">Baggy</option>
+                <option value="formal">Formal</option>
+            </select>
+        </div>
+            <label for="">
+                Clothes type:
+                <select name="select-clothes-type" id="clothes-type">
+                    <option value="tShirt">T-Shirt</option>
+                    <option value="shirt">Shirt</option>
+                    <option value="shoes">Shoes</option>
+                    <option value="acessory">Acessory</option>
+                </select>
+            </label>
+            <label>
+                Nome da roupa:
+                <input type="text" name="clothes-name" id="clothes-name">
+            </label>
+            <label>
+                URL da imagem da roupa: 
+                <input type="text" name="clothes-url" id="clothes-url">
+            </label>
+            <button type="submit" id="submit-button">Salvar roupa no armário!</button>
+    </form>
+</main>
+    <script src="scriptSalvar.js"></script>
+</body>
+</html>
