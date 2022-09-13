@@ -108,7 +108,6 @@ header {
     border-radius: 15%;
     box-shadow: 0px 0px 16px pink;
     text-shadow: 0px 0px 16px white;
-    margin: 0 auto;
 }
 
 #closet-title-container {
@@ -123,11 +122,11 @@ header {
     border: 1px solid pink;
     border-radius: 5%;
     box-shadow: 0px 0px 16px pink;
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px auto;
 }
 
 .style-items img {
@@ -191,4 +190,17 @@ aside {
     box-shadow: 0px 0px 16px pink;
     border: 1px solid white;
     text-shadow: 0px 0px 16px white;
+}
+
+#closet-button2 {
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 15px;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 16px pink;
+    text-shadow: 0px 0px 16px white;
+    margin: 0 auto;
 }

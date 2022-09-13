@@ -41,7 +41,7 @@ function loadStyle(styleName) {
         p.id = 'closet-title';
         clotheItemContainer.appendChild(p);
         const button = document.createElement('a');
-        button.id = 'closet-button';
+        button.id = 'closet-button2';
         button.href = "/maria-project/salvarRoupa.html";
         button.innerHTML = "Let's add some";
         clotheItemContainer.appendChild(button);

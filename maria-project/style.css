@@ -11,7 +11,8 @@
 }
 
 #page-title, #page-description {
-    margin-top: 5px;   
+    margin-top: 5px;
+    text-align: center;   
 }
 
 #page-description {
