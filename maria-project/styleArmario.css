@@ -11,7 +11,8 @@
 }
 
 #page-title, #page-description {
-    margin-top: 5px;   
+    margin-top: 5px;
+    text-align: center;   
 }
 
 #page-description {
@@ -46,6 +47,7 @@ header {
     box-shadow: 0px 0px 16px white;
     font-size: 20px;
     text-shadow: 0px 0px 16px pink;
+    text-align: center;
 }
 
 #nav1 a:hover, #nav2 a:hover {
@@ -57,6 +59,7 @@ header {
     box-shadow: 0px 0px 16px white;
     font-size: 20px;
     text-shadow: 0px 0px 16px pink;
+    text-align: center;
 }
 
 #nav2 {
@@ -92,6 +95,7 @@ header {
     margin-top: 25px;
     color: pink;
     text-shadow: 0px 0px 16px pink;
+    width: 100%;
 }
 
 #closet-button {
@@ -104,6 +108,7 @@ header {
     border-radius: 15%;
     box-shadow: 0px 0px 16px pink;
     text-shadow: 0px 0px 16px white;
+    margin: 0 auto;
 }
 
 #closet-title-container {
@@ -126,7 +131,7 @@ header {
 }
 
 .style-items img {
-    width: 100px;
+    width: 150px;
     padding: 0px auto;
 }
 
@@ -144,4 +149,46 @@ header {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 25px;
+}
+
+#clothe-items-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+aside {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.closetButtons {
+    text-decoration: none;
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 16px pink;
+    border: 1px solid white;
+    text-shadow: 0px 0px 16px white;
+}
+
+.closetButtons:hover {
+    text-decoration: none;
+    padding: 10px;
+    background-color: indianred;
+    color: white;
+    font-size: 20px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 16px pink;
+    border: 1px solid white;
+    text-shadow: 0px 0px 16px white;
 }
