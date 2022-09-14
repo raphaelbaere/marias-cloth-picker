@@ -60,7 +60,6 @@ if (localStorage.getItem('Fancy')) {
                 for (let index = 0; index < divs.length; index += 1) {
                     divs[index].classList.add('style-items')
                 }
-                if (localStorage.getItem('CasualTShirt')) {
                     const casualTShirt = JSON.parse(localStorage.getItem('CasualTShirt'));                   
                     const casualTShirtEscolhida = escolheRoupa(casualTShirt);
                     divs[0].innerHTML = ''
@@ -68,7 +67,7 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + casualTShirtEscolhida.clothesType + '</p>' +
                     '<p>' + casualTShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + casualTShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('CasualShirt')) {
+                    console.log('abc')
                     const casualShirt = JSON.parse(localStorage.getItem('CasualShirt'));
                     const casualShirtEscolhida = escolheRoupa(casualShirt);
                     divs[1].innerHTML = ''
@@ -76,7 +75,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + casualShirtEscolhida.clothesType + '</p>' +
                     '<p>' + casualShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + casualShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('CasualShoes')) {
                     const casualShoes = JSON.parse(localStorage.getItem('CasualShoes'));
                     const casualShoesEscolhida = escolheRoupa(casualShoes);
                     divs[2].innerHTML = ''
@@ -84,7 +82,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + casualShoesEscolhida.clothesType + '</p>' +
                     '<p>' + casualShoesEscolhida.clothesName + '</p>' +
                     '<img src=' + casualShoesEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('CasualAcessories')) {
                     const casualAcessories = JSON.parse(localStorage.getItem('CasualAcessories'));
                     const casualAcessoriesEscolhida = escolheRoupa(casualAcessories);
                     divs[3].innerHTML = ''
@@ -92,7 +89,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + casualAcessoriesEscolhida.clothesType + '</p>' +
                     '<p>' + casualAcessoriesEscolhida.clothesName + '</p>' +
                     '<img src=' + casualAcessoriesEscolhida.clothesUrl + '>'
-                }
                     divs[4].innerHTML = ''
                     divs[4].innerHTML =
                     '<p>' + 'Mood' + '</p>' +
@@ -158,7 +154,6 @@ if (localStorage.getItem('Fancy')) {
                 for (let index = 0; index < divs.length; index += 1) {
                     divs[index].classList.add('style-items');
                 }
-                if (localStorage.getItem('BaggyTShirt')) {
                     const baggyTShirt = JSON.parse(localStorage.getItem('BaggyTShirt'));                   
                     const baggyTShirtEscolhida = escolheRoupa(baggyTShirt);
                     divs[0].innerHTML = ''
@@ -166,7 +161,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + baggyTShirtEscolhida.clothesType + '</p>' +
                     '<p>' + baggyTShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + baggyTShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('BaggyShirt')) {
                     const baggyShirt = JSON.parse(localStorage.getItem('BaggyShirt'));
                     const baggyShirtEscolhida = escolheRoupa(baggyShirt);
                     divs[1].innerHTML = ''
@@ -174,7 +168,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + baggyShirtEscolhida.clothesType + '</p>' +
                     '<p>' + baggyShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + baggyShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('BaggyShoes')) {
                     const baggyShoes = JSON.parse(localStorage.getItem('BaggyShoes'));
                     const baggyShoesEscolhida = escolheRoupa(baggyShoes);
                     divs[2].innerHTML = ''
@@ -182,7 +175,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + baggyShoesEscolhida.clothesType + '</p>' +
                     '<p>' + baggyShoesEscolhida.clothesName + '</p>' +
                     '<img src=' + baggyShoesEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('BaggyAcessories')) {
                     const baggyAcessories = JSON.parse(localStorage.getItem('BaggyAcessories'));
                     const baggyAcessoriesEscolhida = escolheRoupa(baggyAcessories);
                     divs[3].innerHTML = ''
@@ -190,7 +182,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + baggyAcessoriesEscolhida.clothesType + '</p>' +
                     '<p>' + baggyAcessoriesEscolhida.clothesName + '</p>' +
                     '<img src=' + baggyAcessoriesEscolhida.clothesUrl + '>'
-                }
                     divs[4].innerHTML = ''
                     divs[4].innerHTML =
                     '<p>' + 'Mood' + '</p>' +
@@ -207,7 +198,6 @@ if (localStorage.getItem('Fancy')) {
                 for (let index = 0; index < divs.length; index += 1) {
                     divs[index].classList.add('style-items');
                 }
-                if (localStorage.getItem('CuteTShirt')) {
                     const cuteTShirt = JSON.parse(localStorage.getItem('CuteTShirt'));                   
                     const cuteTShirtEscolhida = escolheRoupa(cuteTShirt);
                     divs[0].innerHTML = ''
@@ -215,7 +205,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + cuteTShirtEscolhida.clothesType + '</p>' +
                     '<p>' + cuteTShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + cuteTShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('CuteShirt')) {
                     const cuteShirt = JSON.parse(localStorage.getItem('CuteShirt'));
                     const cuteShirtEscolhida = escolheRoupa(cuteShirt);
                     divs[1].innerHTML = ''
@@ -223,7 +212,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + cuteShirtEscolhida.clothesType + '</p>' +
                     '<p>' + cuteShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + cuteShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('CuteShoes')) {
                     const cuteShoes = JSON.parse(localStorage.getItem('CuteShoes'));
                     const cuteShoesEscolhida = escolheRoupa(cuteShoes);
                     divs[2].innerHTML = ''
@@ -231,7 +219,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + cuteShoesEscolhida.clothesType + '</p>' +
                     '<p>' + cuteShoesEscolhida.clothesName + '</p>' +
                     '<img src=' + cuteShoesEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('CuteAcessories')) {
                     const cuteAcessories = JSON.parse(localStorage.getItem('CuteAcessories'));
                     const cuteAcessoriesEscolhida = escolheRoupa(cuteAcessories);
                     divs[3].innerHTML = ''
@@ -239,7 +226,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + cuteAcessoriesEscolhida.clothesType + '</p>' +
                     '<p>' + cuteAcessoriesEscolhida.clothesName + '</p>' +
                     '<img src=' + cuteAcessoriesEscolhida.clothesUrl + '>'
-                }
                     divs[4].innerHTML = ''
                     divs[4].innerHTML =
                     '<p>' + 'Mood' + '</p>' +
@@ -256,7 +242,6 @@ if (localStorage.getItem('Fancy')) {
                 for (let index = 0; index < divs.length; index += 1) {
                     divs[index].classList.add('style-items');
                 }
-                if (localStorage.getItem('FancyTShirt')) {
                     const fancyTShirt = JSON.parse(localStorage.getItem('FancyTShirt'));                   
                     const fancyTShirtEscolhida = escolheRoupa(fancyTShirt);
                     divs[0].innerHTML = ''
@@ -264,7 +249,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + fancyTShirtEscolhida.clothesType + '</p>' +
                     '<p>' + fancyTShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + fancyTShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('FancyShirt')) {
                     const fancyShirt = JSON.parse(localStorage.getItem('FancyShirt'));
                     const fancyShirtEscolhida = escolheRoupa(fancyShirt);
                     divs[1].innerHTML = ''
@@ -272,7 +256,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + fancyShirtEscolhida.clothesType + '</p>' +
                     '<p>' + fancyShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + fancyShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('FancyShoes')) {
                     const fancyShoes = JSON.parse(localStorage.getItem('FancyShoes'));
                     const fancyShoesEscolhida = escolheRoupa(fancyShoes);
                     divs[2].innerHTML = ''
@@ -280,7 +263,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + fancyShoesEscolhida.clothesType + '</p>' +
                     '<p>' + fancyShoesEscolhida.clothesName + '</p>' +
                     '<img src=' + fancyShoesEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('FancyAcessories')) {
                     const fancyAcessories = JSON.parse(localStorage.getItem('FancyAcessories'));
                     const fancyAcessoriesEscolhida = escolheRoupa(fancyAcessories);
                     divs[3].innerHTML = ''
@@ -288,7 +270,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + fancyAcessoriesEscolhida.clothesType + '</p>' +
                     '<p>' + fancyAcessoriesEscolhida.clothesName + '</p>' +
                     '<img src=' + fancyAcessoriesEscolhida.clothesUrl + '>'
-                }
                     divs[4].innerHTML = ''
                     divs[4].innerHTML =
                     '<p>' + 'Mood' + '</p>' +
@@ -305,7 +286,6 @@ if (localStorage.getItem('Fancy')) {
                 for (let index = 0; index < divs.length; index += 1) {
                     divs[index].classList.add('style-items');
                 }
-                if (localStorage.getItem('ConfortableTShirt')) {
                     const confortableTShirt = JSON.parse(localStorage.getItem('ConfortableTShirt'));                   
                     const confortableTShirtEscolhida = escolheRoupa(confortableTShirt);
                     divs[0].innerHTML = ''
@@ -313,7 +293,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + confortableTShirtEscolhida.clothesType + '</p>' +
                     '<p>' + confortableTShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + confortableTShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('ConfortableShirt')) {
                     const confortableShirt = JSON.parse(localStorage.getItem('ConfortableShirt'));
                     const confortableShirtEscolhida = escolheRoupa(confortableShirt);
                     divs[1].innerHTML = ''
@@ -321,7 +300,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + confortableShirtEscolhida.clothesType + '</p>' +
                     '<p>' + confortableShirtEscolhida.clothesName + '</p>' +
                     '<img src=' + confortableShirtEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('ConfortableShoes')) {
                     const confortableShoes = JSON.parse(localStorage.getItem('ConfortableShoes'));
                     const confortableShoesEscolhida = escolheRoupa(confortableShoes);
                     divs[2].innerHTML = ''
@@ -329,7 +307,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + confortableShoesEscolhida.clothesType + '</p>' +
                     '<p>' + confortableShoesEscolhida.clothesName + '</p>' +
                     '<img src=' + confortableShoesEscolhida.clothesUrl + '>'
-                } else if (localStorage.getItem('ConfortableAcessories')) {
                     const confortableAcessories = JSON.parse(localStorage.getItem('ConfortableAcessories'));
                     const confortableAcessoriesEscolhida = escolheRoupa(confortableAcessories);
                     divs[3].innerHTML = ''
@@ -337,7 +314,6 @@ if (localStorage.getItem('Fancy')) {
                     '<p>' + confortableAcessoriesEscolhida.clothesType + '</p>' +
                     '<p>' + confortableAcessoriesEscolhida.clothesName + '</p>' +
                     '<img src=' + confortableAcessoriesEscolhida.clothesUrl + '>'
-                }
                     divs[4].innerHTML = ''
                     divs[4].innerHTML =
                     '<p>' + 'Mood' + '</p>' +
