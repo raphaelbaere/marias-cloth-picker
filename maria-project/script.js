@@ -374,8 +374,9 @@ if (localStorage.getItem('Fancy')) {
 
 if (!localStorage.getItem('Closet')) {
     p.innerHTML = "You don't have any clothes in your closet yet. Let's add some!"
-    const button = document.createElement('button');
-    button.innerHTML = "Let's add some!"
-    button.id = 'closet-button2'
-    section.appendChild(button);
+    const a = document.createElement('a');
+    a.innerHTML = "Let's add some!"
+    a.id = 'closet-button2'
+    a.href = 'salvarRoupa/salvarRoupa.html'
+    section.appendChild(a);
 }
